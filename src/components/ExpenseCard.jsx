@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "../App.css";
-import TranscationCard from "./transcationCard";
+import TranscationCard from "./TranscationCards";
 import ExpenseProgress from "./TopExpense";
 import AddExpenseModal from "./AddexpenseModal";
 import AddWalletModal from "./AddWalletModal";
