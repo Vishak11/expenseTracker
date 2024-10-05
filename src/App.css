@@ -1,0 +1,230 @@
+/* General styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.expenseTrackerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #333;
+  height: 100vh;
+  padding: 20px;
+  color: #fff;
+}
+
+.expenseSummary {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-bottom: 20px;
+}
+
+.summaryBox {
+  background-color: #626262;
+  padding: 20px;
+  border-radius: 10px;
+  width: 45%;
+  text-align: center;
+}
+
+.walletBalance {
+  background-color: #4CAF50;
+}
+
+.walletAmount {
+  color: #A5FF82;
+  font-weight: bold;
+}
+
+.expenseTotal {
+  background-color: #F44336;
+}
+
+.expenseAmount {
+  color: #FFA500;
+  font-weight: bold;
+}
+
+.addBtn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #3b3b3b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.transactionsExpenses {
+  display: flex;
+  gap: 20px;
+  width: 90%;
+  justify-content: space-between;
+}
+
+/* Recent Transactions */
+.recentTransactionsContainer {
+  width: 50%;
+  background-color: #444;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.expenseItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+
+.expenseDetails {
+  flex-grow: 1;
+  margin-left: 10px;
+  color: #333;
+}
+
+.expenseAmount {
+  color: #FFA500;
+}
+
+.expenseActions button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.paginationControls {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.paginationBtn {
+  background-color: #3b3b3b;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.paginationPage {
+  color: white;
+}
+
+/* Top Expenses */
+.topExpensesContainer {
+  width: 45%;
+  background-color: #444;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.expenseBars {
+  display: flex;
+  flex-direction: column;
+}
+
+.expenseRow {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.expenseCategory {
+  flex: 1;
+  font-size: 16px;
+  color: white;
+}
+
+.expenseBarWrapper {
+  flex: 3;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+.expenseBar {
+  height: 20px;
+  background-color: #8884d8;
+  border-radius: 10px;
+}
+.totalSummary{
+  display: flex;
+  gap: 70px;
+  flex-direction: row;
+  width:100%;
+ 
+  /* background-color: #626262; */
+}
+.modalBackground {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContainer {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  text-align: center;
+}
+
+.modalTitle {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.modalInput {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.modalActions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.addBtn {
+  background-color: #f0a500;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cancelBtn {
+  background-color: #ddd;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.expenseItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
